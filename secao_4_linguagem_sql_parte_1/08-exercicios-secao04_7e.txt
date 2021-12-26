@@ -1,0 +1,34 @@
+## Exercícios Seção 04
+
+1) O que é a linguagem SQL?
+R: É a linguagem utilizada padrão para  manipulação de banco de dados relacionais. Structured Query Language, ou linguagem de consulta estruturada.
+
+
+2) A linguagem SQL se divide em quantos subgrupos? E quais são eles? 
+R: 5 subgrupos. 
+DQL = Data Query Language, 
+DML = Data Manipulation Language, 
+DCL = Data Control Language, 
+DDL = Data Definition Language
+DTL = Data Transaction Language
+
+3) Quais os comandos do Data Query Language e qual sua utilização?
+R: SELECT. Selecionar uma ou mais tabelas de o banco de dados.
+
+
+4) Quais os comandos do Data Manipulation Language e qual sua utilização?
+R: INSERT, DELETE e UPDATE. Efetuar inclusões, alterações e atualizações de dados em  um banco de dados.
+
+5) Quais os comandos do Data Definition Language e qual sua utilização?
+R: CREATE, ALTER e DROP. Criar, alterar e excluir banco de dados, tabelas e elementos associados como índice, descricao e visão.
+
+
+6) Quais os comandos do Data Control Language e qual sua utilização?
+R: GRANT - Utilizado para autorizar um usuário a setar operações de um banco de dados;
+REVOKE - Utilizado para remover ou restringir o acesso de um usuário a um banco de dados.
+
+
+7) Quais os comandos do Data Transaction Language e qual sua utilização?
+R: BEGIN - Utilizado para dar início a uma transação
+COMMIT - Utilizado para finalizar uma transação
+ROLLBACK - Faz com que as mudanças de dados existentes antes do ultimo commit sejam canceladas ou descartadas. 
