@@ -1,16 +1,16 @@
--- CREATE DATABASE secao03;
+CREATE DATABASE secao03;
 
--- CREATE TABLE tipos_produto(
--- 	id SERIAL PRIMARY KEY,
--- 	descricao VARCHAR(50) NOT NULL
--- );
+CREATE TABLE tipos_produto(
+	id SERIAL PRIMARY KEY,
+	descricao VARCHAR(50) NOT NULL
+);
 
--- CREATE TABLE produtos(
--- 	id SERIAL PRIMARY KEY,
--- 	descricao VARCHAR(50) NOT NULL,
--- 	preco MONEY NOT NULL,
--- 	id_tipo_produto INT references tipos_produto(id) NOT NULL
--- );
+CREATE TABLE produtos(
+	id SERIAL PRIMARY KEY,
+	descricao VARCHAR(50) NOT NULL,
+	preco MONEY NOT NULL,
+	id_tipo_produto INT references tipos_produto(id) NOT NULL
+);
 
 CREATE TABLE pacientes(
 	id SERIAL PRIMARY KEY,
