@@ -1,4 +1,4 @@
-## Bancos de Dados SQL e NoSQL do básico ao avançado - Geek Academy, Udemy.
+## Bancos de Dados SQL e NoSQL do básico ao avançado - Geek University, Udemy.
 
 #### Conteúdos:
 
